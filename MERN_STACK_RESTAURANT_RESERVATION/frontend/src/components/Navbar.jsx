@@ -37,10 +37,10 @@ const Navbar = () => {
               )
             ))}
           </div>
-          <Link to="/menu">
-            <button className="menuBtn">OUR MENU</button>
-          </Link>
         </div>
+        <Link to="/menu" className="menuBtnLink">
+          <button className="menuBtn">OUR MENU</button>
+        </Link>
         <div className="hamburger" onClick={()=> setShow(!show)}>
                 <GiHamburgerMenu/>
         </div>

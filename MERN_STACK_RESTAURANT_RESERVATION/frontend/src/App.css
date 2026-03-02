@@ -15,55 +15,53 @@
 /**********************************************************************************************************************/
 nav {
   display: flex;
-  max-width: 1500px;
-  min-width: 1500px;
-  padding: 25px 10px 40px 10px;
+  width: 100%;              /* Make it responsive */
+  max-width: 1500px;        /* Optional container limit */
+  margin: 0 auto;           /* Center align */
+  padding: 25px 20px;
   margin-bottom: 25px;
   justify-content: space-between;
-  position: relative;
   align-items: center;
-  border-bottom-right-radius: 7px;
-  border-bottom-left-radius: 7px;
+  position: relative;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  box-sizing: border-box;
 }
-nav::after {
-  content: "";
-  position: absolute;
-  height: 0.6px;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: rgb(201, 201, 201);
-}
+
+/* LOGO */
 nav .logo {
   flex: 1;
   display: flex;
   align-items: center;
   font-size: 2rem;
 }
+
+/* NAV LINKS */
 nav .navLinks {
   flex: 2;
-}
-nav .navLinks {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
+
 nav .navLinks .links {
   display: flex;
   gap: 25px;
 }
+
 nav .navLinks .links a {
   text-decoration: none;
   color: #555;
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 1.4px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transition: 0.3s;
 }
+
 nav .navLinks .links a:hover {
   color: #222;
-  transition: 0.3s;
-  cursor: pointer;
 }
+
+/* BUTTON */
 nav .menuBtn {
   padding: 8px 20px;
   color: black;
@@ -71,87 +69,86 @@ nav .menuBtn {
   border: 1px solid #333;
   border-radius: 20px;
   font-size: 16px;
+  transition: 0.3s;
 }
+
 nav .menuBtn:hover {
   color: #fff;
   background: #222;
-  transition: 0.3s;
   cursor: pointer;
 }
+
+nav .menuBtnLink {
+  text-decoration: none;
+}
+
+/* HAMBURGER */
 nav .hamburger {
   display: none;
 }
+
 nav svg {
   font-size: 1.75rem;
 }
-@media (max-width: 1520px) {
-  nav {
-    min-width: 100%;
-    padding: 25px 20px 40px 20px;
-  }
-}
+
+/* ---------------------------
+   RESPONSIVE SECTION
+---------------------------- */
+
+/* Tablet */
 @media (max-width: 1100px) {
+
   nav {
-    z-index: 20;
-    position: unset;
-    background: #ffffff63;
-    padding: 10px 30px;
+    padding: 15px 20px;
   }
-  nav::after {
-    content: "";
-    display: none;
-  }
+
   nav .hamburger {
     display: flex;
+    cursor: pointer;
   }
+
   nav .navLinks {
     position: absolute;
-    display: flex;
-    flex-direction: column;
     top: -100%;
-    background: #fff;
-    width: 100%;
     left: 0;
-    padding: 15px 7.5px;
-    z-index: -1;
-    transition: 0.3s;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    padding: 20px 0;
+    transition: 0.3s ease-in-out;
   }
+
   nav .showmenu {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    top: 67px;
-    background: #fff;
-    width: 100%;
-    left: 0;
-    padding: 15px 7.5px;
-    transition: 0.3s;
-    margin: 0 15px;
-    width: 96.7vw;
-    margin-right: 30px;
-    border-top-right-radius: 7px;
-    border-top-left-radius: 7px;
+    top: 70px;
   }
-  nav .showmenu .links {
+
+  nav .navLinks .links {
     flex-direction: column;
+    gap: 15px;
     text-align: center;
   }
+
   nav .menuBtn {
-    margin-top: 20px;
+    margin-top: 15px;
   }
 }
-@media (max-width: 800px) {
-  nav .showmenu {
-    width: 96vw;
+
+/* Mobile */
+@media (max-width: 600px) {
+
+  nav {
+    padding: 10px 15px;
+  }
+
+  nav .logo {
+    font-size: 1.5rem;
+  }
+
+  nav .navLinks .links a {
+    font-size: 16px;
   }
 }
-@media (max-width: 650px) {
-  nav .showmenu {
-    margin: 0;
-    width: 100%;
-    border-radius: 0;
-  }
-}
+
 /**********************************************************************************************************************/
 
 /********************** HERO SECTION COMPONENT STYLING **************************/
@@ -1112,3 +1109,99 @@ footer .container .banner .right {
   }
 }
 /**********************************************************************************************************************/
+
+/* COFFEE SECTION STYLING */
+/**********************************************************************************************************************/
+.coffee {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+.coffee .container {
+  max-width: 1500px;
+  min-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   border-radius: 53px;
+}
+.coffee .container .coffee_heading_section {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.coffee .container .coffee_heading_section p {
+  color: #333;
+  font-size: 18px;
+  font-weight: 300;
+}
+.coffee .container .coffee_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.coffee .container .coffee_container .coffee_card {
+  width: 25%;
+  position: relative;
+  padding: 20px 12.5px;
+  margin-bottom: 12px;
+  border-radius: 20px;
+}
+.coffee .container .coffee_container .coffee_card img {
+  width: 100%;
+  height: 370px;
+}
+.coffee .container .coffee_container .coffee_card h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.coffee .container .coffee_container .coffee_card button {
+  position: absolute;
+  top: 40px;
+  left: 25px;
+  padding: 8px 20px;
+  color: #fff;
+  background: linear-gradient(186deg, black, #7e7a7a8a);
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.coffee .container .coffee_container .coffee_card:hover img {
+  transition: 0.3s;
+  transform: scale(1.03);
+}
+@media (max-width: 1520px) {
+  .coffee .container {
+    min-width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .coffee .container .coffee_container .coffee_card img {
+    height: 325px;
+  }
+  .coffee .container .coffee_container .coffee_card h3 {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 1000px) {
+  .coffee .container .coffee_container .coffee_card {
+    width: 50%;
+  }
+  .coffee .container .coffee_container .coffee_card img {
+    height: auto;
+  }
+  .coffee .container .coffee_container .coffee_card h3 {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 600px) {
+  .coffee .container .coffee_container .coffee_card h3 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 450px) {
+  .coffee .container .coffee_container .coffee_card {
+    width: 100%;
+    padding: 20px 0;
+  }
+}

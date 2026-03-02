@@ -57,49 +57,25 @@
                 "title": "MUSSELS SOUP",
                 "category": "Dinner"
             },
-            {
+             {
                 "id": 7,
                 "image": "./dinner5.png",
-                "title": "ITALIAN SPAGHETTI",
+                "title": "GRILLED CHICKEN",
                 "category": "Dinner"
             },
             {
                 "id": 8,
                 "image": "./dinner6.png",
-                "title": "GRILLED FISH",
-                "category": "Drinks"
-            },
-              {
-                "id": 8,
-                "image": "./dinner6.png",
-                "title": "BOBA COLD COFFEE",
-                "category": "Drinks"
-            },
-              {
-                "id": 9,
-                "image": "./dinner6.png",
-                "title": "BOBA BLUEBERRY ",
-                "category": "Drinks"
-            },
-             {
-                "id": 10,
-                "image": "./dinner6.png",
-                "title": "BOBA MANGO CHILLI",
-                "category": "Drinks"
-            },
-            {
-                "id": 11,
-                "image": "./dinner6.png",
-                "title": "BOBA STRAWBERRY",
-                "category": "Drinks"
+                "title": "GRILLED STEAK",
+                "category": "Dinner"
             }
             
-             
             
-
-
             
-        ],
+            
+           
+            
+ ],
         "team": [
             {
                 "id": 1,
@@ -152,6 +128,7 @@
         "who_we_are": [
             {
                 "id": 1,
+                
                 "number": "1",
                 "title": "Restaurants"
             },
@@ -169,6 +146,56 @@
                 "id": 4,
                 "number": "200",
                 "title": "Food Dishes"
+            }
+        ],
+        "coffees": [
+            {
+                "id": 1,
+                "image": "./Mojito1.jpg",
+                "title": " BOBA Mojito",
+                "type": "Classic"
+            },
+            {
+                "id": 2,
+                "image": "./Coldcoffee.jpg",
+                "title": "BOBA Cold Coffee",
+                "type": "Creamy"
+            },
+            {
+                "id": 3,
+                "image": "./Blueberry.jpg",
+                "title": "BOBA Blueberry",
+                "type": "Smooth"
+            },
+            {
+                "id": 4,
+                "image": "./Mangocoffee.jpg",
+                "title": "BOBA Mango chilli",
+                "type": "Bold"
+            },
+            {
+                "id": 5,
+                "image": "./Hotcoffee.jpg",
+                "title": "Hot Chocolate",
+                "type": "Rich"
+            },
+            {
+                "id": 6,
+                "image": "./sweetcorn.jpg",
+                "title": "Sweet Corn Soup",
+                "type": "Balanced"
+            },
+            {
+                "id": 7,
+                "image": "./softdrink.jpg",
+                "title": "Soft Drink",
+                "type": "Chilled"
+            },
+            {
+                "id": 8,
+                "image": "./tomatosoup.jpg",
+                "title": "Tomato Soup",
+                "type": "Soup"
             }
         ],
         "navbarLinks": [

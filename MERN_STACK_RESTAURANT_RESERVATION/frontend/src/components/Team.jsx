@@ -7,9 +7,7 @@ const Team = () => {
         <div className="heading_section">
           <h1 className="heading">OUR TEAM</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            fugit dicta, ipsum impedit quam laboriosam quas doloremque quia
-            perferendis laborum.
+            we have  a team of passionate food enthusiasts, creative chefs, and dedicated staff who are committed to delivering an exceptional dining experience. From our talented culinary team crafting innovative dishes to our friendly service staff ensuring your comfort, every member of our team plays a crucial role in making your visit memorable. We take pride in our collaborative spirit and shared love for great food, which is reflected in the vibrant atmosphere and delicious offerings at Skye Dine.
           </p>
         </div>
         <div className="team_container">

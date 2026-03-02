@@ -4,6 +4,7 @@ import About from '../../components/About'
 import Qualities from '../../components/Qualities'
 import Menu from '../../components/Menu'
 import WhoAreWe from '../../components/WhoAreWe'
+import Coffee from '../../components/Coffee'
 import Team from '../../components/Team'
 import Reservation from '../../components/Reservation'
 import Footer from '../../components/Footer'
@@ -16,6 +17,7 @@ const Home = () => {
       <Qualities/>
       <Menu/>
       <WhoAreWe/>
+      <Coffee/>
       <Team/>
       <Reservation/>
       <Footer/>
