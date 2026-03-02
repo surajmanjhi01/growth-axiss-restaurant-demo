@@ -1125,6 +1125,7 @@ footer .container .banner .right {
   display: flex;
   flex-direction: column;
   align-items: center;
+   border-radius: 53px;
 }
 .coffee .container .coffee_heading_section {
   text-align: center;
@@ -1144,6 +1145,7 @@ footer .container .banner .right {
   position: relative;
   padding: 20px 12.5px;
   margin-bottom: 12px;
+  border-radius: 20px;
 }
 .coffee .container .coffee_container .coffee_card img {
   width: 100%;
