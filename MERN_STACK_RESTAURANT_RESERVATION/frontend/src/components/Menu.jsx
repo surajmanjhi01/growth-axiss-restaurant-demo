@@ -7,7 +7,7 @@ const Menu = () => {
         <div className="container">
             <div className="heading_section">
                 <h1 className="heading">POPULAR DISHES</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, iusto dolorem! Voluptatibus ipsum nam mollitia architecto. Soluta pariatur eius et recusandae veritatis. Quasi, et molestias!</p>
+                <p>Perfect food for perfect hangouts — explore our most-loved dishes, best enjoyed with friends and a rooftop view.</p>
             </div>
             <div className="dishes_container">
                 {
@@ -21,6 +21,7 @@ const Menu = () => {
                 }   
             </div>
         </div>
+        
       </section>
     </>
   )

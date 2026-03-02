@@ -13,13 +13,11 @@ const About = () => {
               <p>The only thing we're serious about is food.</p>
             </div>
             <p className="mid">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Provident possimus optio adipisci dolores impedit illum iusto
-              perferendis, laudantium quod accusamus consequuntur consectetur,
-              tempore nulla error iure reiciendis dolorem assumenda.
-              Necessitatibus fugit asperiores totam rem esse exercitationem
-              iusto ipsum qui dolore ex, accusantium repellat mollitia
-              repellendus.
+             At Skye Dine, we’re more than just a place to eat — we’re where good food meets great vibes. Designed for trendsetters and food lovers aged 18–30, we bring you bold continental and Chinese flavors without burning a hole in your pocket.
+
+Relax on our rooftop lounge with a stunning airport view — a rare experience in the area. Whether you’re here for our handcrafted coffees from Classic Coffee Blender, bubble tea, tasty platters or just chilling with friends, Skye Dine is your go-to hub for memorable bites and good times.
+
+With dedicated spaces for both lounge and café, variety on the menu, and a vibe that keeps you coming back — we’re where your day feels a little brighter.
             </p>
             <Link to={"/menu"} className="exploreBtn">
               Explore Menu{" "}

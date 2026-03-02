@@ -5,26 +5,26 @@
                 "id": 1,
                 "image": "./quality_food.svg",
                 "title": "QUALITY FOOD",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Fresh ingredients, expert preparation, and carefully crafted continental and Chinese dishes served with consistency and care." 
             },
             {
                 "id": 2,
                 "image": "./super_taste.svg",
                 "title": "SUPER TASTE",
-                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing sit amet elit. Sit voluptates quaerat pariatur." 
+                "description": "Our dishes are crafted with passion and precision, delivering an unforgettable taste experience that lingers in memory." 
             },
             {
                 "id": 3,
                 "image": "./fast_delivery.svg",
                 "title": "FAST DELIVERY",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Fresh ingredients, expert preparation, and carefully crafted continental and Chinese dishes served with consistency and care." 
             }
         ],
         "dishes": [
             {
                 "id": 1,
                 "image": "./dinner1.jpeg",
-                "title": "ROASTED LAMB RUMP",
+                "title": "ROASTED  RUMP",
                 "category": "Dinner"
             },
             {
@@ -48,7 +48,7 @@
             {
                 "id": 5,
                 "image": "./lunch1.png",
-                "title": "BEEF BURGER MEAL",
+                "title": "CHICKEN BURGER MEAL",
                 "category": "Lunch"
             },
             {
@@ -67,8 +67,38 @@
                 "id": 8,
                 "image": "./dinner6.png",
                 "title": "GRILLED FISH",
-                "category": "Dinner"
+                "category": "Drinks"
+            },
+              {
+                "id": 8,
+                "image": "./dinner6.png",
+                "title": "BOBA COLD COFFEE",
+                "category": "Drinks"
+            },
+              {
+                "id": 9,
+                "image": "./dinner6.png",
+                "title": "BOBA BLUEBERRY ",
+                "category": "Drinks"
+            },
+             {
+                "id": 10,
+                "image": "./dinner6.png",
+                "title": "BOBA MANGO CHILLI",
+                "category": "Drinks"
+            },
+            {
+                "id": 11,
+                "image": "./dinner6.png",
+                "title": "BOBA STRAWBERRY",
+                "category": "Drinks"
             }
+            
+             
+            
+
+
+            
         ],
         "team": [
             {
@@ -122,7 +152,7 @@
         "who_we_are": [
             {
                 "id": 1,
-                "number": "14",
+                "number": "1",
                 "title": "Restaurants"
             },
             {

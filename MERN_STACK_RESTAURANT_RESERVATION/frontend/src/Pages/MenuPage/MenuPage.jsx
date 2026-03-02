@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { HiOutlineArrowNarrowLeft } from 'react-icons/hi';
-import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import './MenuPage.css';
 
@@ -152,7 +151,6 @@ const MenuPage = () => {
 
   return (
     <>
-      <Navbar />
       <div className="menu-page">
         <div className="menu-header">
           <Link to="/" className="back-button">
@@ -439,6 +437,7 @@ const MenuPage = () => {
             </div>
           </div>
         )}
+
       </div>
 
       <div className="menu-footer">
