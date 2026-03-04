@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="banner">
           {/* <div className="left"></div> */}
           <div className="right">
-            <p> Hinoo Main Rd, Hinoo, Ranchi, Jharkhand 834002</p>
+            <p> Near Amity University Ranchi,Nayasrai, Ranchi, Jharkhand 834002</p>
           <p >Phone no- 092418 27877</p>
             <p>Open: 08:00 AM - 11:00 PM</p>
           </div>
