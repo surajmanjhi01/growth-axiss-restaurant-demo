@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Junkies Zone | Chinese Restaurant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">Junkies Zone</div>
+    <div class="navLinks" id="navLinks">
+      <div class="links">
+        <a href="#heroSection">HOME</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#qualities">SERVICES</a>
+        <a href="#team">TEAM</a>
+        <a href="#reservation">RESERVATION</a>
+      </div>
+      <a href="menu.html" class="mobileMenuBtnLink">
+        <button class="menuBtn mobileMenuBtn">OUR MENU</button>
+      </a>
+    </div>
+    <a href="menu.html" class="menuBtnLink">
+      <button class="menuBtn">OUR MENU</button>
+    </a>
+    <div class="hamburger" id="hamburger" aria-label="Open Menu" role="button" tabindex="0">
+      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M80 160h352M80 256h352M80 352h352" stroke-linecap="round" stroke-miterlimit="10" stroke-width="48"></path></svg>
+    </div>
+  </nav>
+
+  <section class="heroSection" id="heroSection">
+    <div class="container">
+      <div class="banner">
+        <div class="largeBox">
+          <h1 class="title">Authentic</h1>
+        </div>
+        <div class="combined_boxes">
+          <div class="imageBox">
+            <img src="assets/hero1.png" alt="hero" />
+          </div>
+          <div class="textAndLogo">
+            <div class="textWithSvg">
+              <h1 class="title">Chinese</h1>
+              <h1 class="title dishes_title">Flavors</h1>
+              <img src="assets/threelines.svg" alt="threelines" />
+            </div>
+            <img class="logo" src="assets/logo.svg" alt="logo" />
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="imageBox">
+          <img src="assets/hero2.png" alt="hero" />
+        </div>
+        <h1 class="title dishes_title">Flavors</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="banner">
+        <div class="top">
+          <h1 class="heading">ABOUT US</h1>
+          <p>The only thing we're serious about is flavor.</p>
+        </div>
+        <p class="mid">
+          Welcome to Junkies Zone, your go-to Chinese restaurant for bold wok-tossed meals, rich soups, and street-style favorites.
+          We blend fresh ingredients with classic Chinese techniques to deliver comfort food with unforgettable taste.
+          From casual hangouts to family dinners, Junkies Zone is built for good food, warm service, and memorable moments.
+        </p>
+        <a href="menu.html" class="exploreBtn">
+          Explore Menu
+          <span>
+            <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </span>
+        </a>
+      </div>
+      <div class="banner">
+        <img src="assets/about.png" alt="about" />
+      </div>
+    </div>
+  </section>
+
+  <section class="qualities" id="qualities">
+    <div class="container" id="qualitiesContainer"></div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="heading_section">
+        <h1 class="heading">POPULAR DISHES</h1>
+        <p>Our most loved Chinese signatures, served fresh from the wok to your table.</p>
+      </div>
+      <div class="dishes_container" id="dishesContainer"></div>
+    </div>
+  </section>
+
+  <section class="who_are_we" id="who_are_we">
+    <div class="container">
+      <div class="text_banner" id="whoLeft"></div>
+      <div class="image_banner">
+        <img class="gradient_bg" src="assets/center.svg" alt="gradientBg" />
+        <img src="assets/whoweare.png" alt="food" />
+      </div>
+      <div class="text_banner" id="whoRight"></div>
+    </div>
+  </section>
+
+  <section class="coffee" id="coffee">
+    <div class="container">
+      <div class="coffee_heading_section">
+        <h1 class="heading">CHINESE STREET FOOD</h1>
+        <p>Classic street-style bites packed with spice, crunch, and authentic Indo-Chinese flavor.</p>
+      </div>
+      <div class="coffee_container" id="coffeeContainer"></div>
+    </div>
+  </section>
+
+  <section class="team" id="team">
+    <div class="container">
+      <div class="heading_section">
+        <h1 class="heading">OUR TEAM</h1>
+        <p>
+          Our chefs and service team bring energy, precision, and passion to every plate at Junkies Zone.
+          We focus on consistency, hygiene, and hospitality so every visit feels special.
+        </p>
+      </div>
+      <div class="team_container" id="teamContainer"></div>
+    </div>
+  </section>
+
+  <section class="reservation" id="reservation">
+    <div class="container">
+      <div class="banner">
+        <img src="assets/reservation.png" alt="res" />
+      </div>
+      <div class="banner">
+        <div class="reservation_form_box">
+          <h1>MAKE A RESERVATION</h1>
+          <p>For Further Questions, Please Call</p>
+          <form id="reservationForm">
+            <div>
+              <input type="text" name="firstName" placeholder="First Name" required />
+              <input type="text" name="lastName" placeholder="Last Name" required />
+            </div>
+            <div>
+              <input type="date" name="date" required />
+              <input type="time" name="time" required />
+            </div>
+            <div>
+              <input type="email" name="email" placeholder="Email" class="email_tag" required />
+              <input type="number" name="phone" placeholder="Phone" required />
+            </div>
+            <button type="submit">
+              RESERVE NOW
+              <span>
+                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="banner">
+        <div class="right">
+          <p>City Center Road, Downtown, Ranchi 834002</p>
+          <p>Phone no - +91 92418 27877</p>
+          <p>Open: 10:00 AM - 11:30 PM</p>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="left">
+          <p>Developed for Junkies Zone</p>
+        </div>
+        <div class="right">
+          <p>All Rights Reserved By Junkies Zone.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

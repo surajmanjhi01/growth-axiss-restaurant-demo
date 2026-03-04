@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reservation Confirmed | Junkies Zone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section class="notFound">
+    <div class="container">
+      <img src="assets/sandwich.png" alt="success" />
+      <h1>Redirecting to Home in <span id="countdown">10</span> seconds...</h1>
+      <a href="index.html">
+        Back to Home
+        <span>
+          <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <script>
+    let count = 10;
+    const countdown = document.getElementById('countdown');
+    const timer = setInterval(() => {
+      count -= 1;
+      countdown.textContent = count;
+      if (count <= 0) {
+        clearInterval(timer);
+        window.location.href = 'index.html';
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
